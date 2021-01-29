@@ -35,17 +35,9 @@ namespace MetoderOgFiler
                 Console.WriteLine(fil);
             }
 
-            // Opgave 5 – læs fra fil
-            using (var reader = new StreamReader(new FileStream(@".\Droids\R2D2.txt", FileMode.Open)))
-            {
-                Console.WriteLine(reader.ReadToEnd());
-            }
+            // Opgave 5 – læs fra fil (Forstår ikke helt pga. Formulering)
 
-            // Opgave 6 – skriv til fil
-            using (var writer = new StreamWriter(new FileStream(@".\Droids\R2D2.txt", FileMode.Create)))
-            {
-                writer.Write("Donkey Kong!");
-            }
+            // Opgave 6 – skriv til fil (Forstår ikke helt pga. Formulering)
 
             // Opgave 7 – Fil og mappe manipulation
             Console.Clear();
